@@ -32,13 +32,3 @@ MazeMind is a Java Swing maze app where players can solve image-based mazes manu
 ```powershell
 .\test.ps1
 ```
-
-## Regenerate Documentation Media
-
-```powershell
-.\media.ps1
-```
-
-## Notes
-
-User-loaded images are validated before use. The app rejects unsupported files, very large files, and images over 8 megapixels to avoid excessive memory use.
